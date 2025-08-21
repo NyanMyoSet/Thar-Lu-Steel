@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thar Lu Steel Co., Ltd. - Product Catalog</title>
+    <!-- Use Tailwind CSS for modern, responsive styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between">
+            <!-- Company Logo & Name -->
+            <div class="flex items-center space-x-3 mb-4 sm:mb-0">
+                <!-- Simple SVG for a roof logo -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-600" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2.01l-10 8h3v12h14v-12h3l-10-8zm-1 15v-4h2v4h-2z"/>
+                </svg>
+                <h1 class="text-2xl font-bold text-gray-900">Thar Lu Steel Co., Ltd.</h1>
+            </div>
+            <!-- Navigation Menu -->
+            <nav class="flex-grow">
+                <ul class="flex flex-col sm:flex-row sm:justify-end items-center space-y-2 sm:space-y-0 sm:space-x-8 text-lg font-medium">
+                    <li><a href="#home" class="text-gray-600 hover:text-blue-600 transition-colors">Home</a></li>
+                    <li><a href="#about" class="text-gray-600 hover:text-blue-600 transition-colors">About Us</a></li>
+                    <li><a href="#products" class="text-gray-600 hover:text-blue-600 transition-colors">Products</a></li>
+                    <li><a href="#contact" class="text-gray-600 hover:text-blue-600 transition-colors">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        
+        <!-- Hero Section -->
+        <section id="home" class="bg-gradient-to-r from-blue-600 to-blue-800 text-white rounded-3xl shadow-xl p-10 md:p-16 mb-12 text-center">
+            <h2 class="text-3xl md:text-5xl font-extrabold leading-tight mb-4">
+                Building a Stronger Myanmar with Quality Steel
+            </h2>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-6">
+                Providing reliable and innovative steel products for the nation's infrastructure and development.
+            </p>
+            <a href="#products" class="bg-white text-blue-800 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-colors duration-300 transform hover:scale-105">
+                Explore Our Products
+            </a>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="bg-white rounded-3xl shadow-lg p-8 md:p-12 mb-12">
+            <h3 class="text-3xl font-bold text-center text-gray-900 mb-6">About Us</h3>
+            <div class="prose max-w-none">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Thar Lu Steel Company Limited is dedicated to contributing to Myanmar's economic and urban development by providing high-quality steel roofing sheets and construction materials. With a focus on sustainable growth, we are committed to modernizing the Thanlyin GI Sheet factory to increase production capacity and meet the growing domestic demand, which has been observed to increase by 5% to 7% annually.
+                </p>
+                <p class="text-lg text-gray-700 leading-relaxed mt-4">
+                    Our mission is to become a key player in the Myanmar steel industry by leveraging advanced technology and strategic investments to produce a diverse range of products, including modern items like Decking Sheets, Lip Channels, and Pipe Sections. By revitalizing local manufacturing, we aim to reduce reliance on imports, create job opportunities, and build a more resilient national economy.
+                </p>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="p-8 md:p-12">
+            <h3 class="text-3xl font-bold text-center text-gray-900 mb-8">Our Products</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Product Card: GI Sheet -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/1e40af/fff?text=GI+Sheet" alt="Galvanized Iron Sheet" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2 text-gray-900">Galvanized Iron Sheet</h4>
+                        <p class="text-gray-600 text-sm">
+                            Our high-quality GI Sheets are designed for durability and strength, perfect for roofing and cladding in a variety of construction projects.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product Card: PPGI 4-Angle Sheet -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/1e40af/fff?text=PPGI+4-Angle+Sheet" alt="PPGI 4-Angle Sheet" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2 text-gray-900">PPGI 4-Angle Sheet</h4>
+                        <p class="text-gray-600 text-sm">
+                            Pre-painted for a vibrant finish and extra protection, our PPGI 4-Angle Sheets combine aesthetics with robust structural integrity.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product Card: Decking Sheet -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/1e40af/fff?text=Decking+Sheet" alt="Decking Sheet" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2 text-gray-900">Decking Sheet</h4>
+                        <p class="text-gray-600 text-sm">
+                            Ideal for multi-story buildings and construction, our decking sheets provide a strong and reliable base for concrete floors.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product Card: Lip Channel -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/1e40af/fff?text=Lip+Channel" alt="Lip Channel" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2 text-gray-900">Lip Channel</h4>
+                        <p class="text-gray-600 text-sm">
+                            Versatile and lightweight, our Lip Channels are perfect for various applications, including solar panel racks, storage shelves, and ceiling support structures.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product Card: Hollow Pipes & Tubes -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/1e40af/fff?text=Hollow+Pipes+%26+Tubes" alt="Hollow Pipes & Tubes" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2 text-gray-900">Hollow Pipes & Tubes</h4>
+                        <p class="text-gray-600 text-sm">
+                            Designed for structural integrity and ease of use, our hollow pipes and tubes are essential for a wide range of building and fabrication needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Product Card: Polycarbonate Sheet (Future Product) -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                    <img src="https://placehold.co/600x400/1e40af/fff?text=Polycarbonate+Sheet" alt="Polycarbonate Sheet" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h4 class="text-xl font-semibold mb-2 text-gray-900">Polycarbonate Sheet</h4>
+                        <p class="text-gray-600 text-sm">
+                            (Future Product) We plan to expand our product line to include lightweight and durable polycarbonate sheets, ideal for various roofing and architectural applications.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-blue-800 text-white rounded-3xl shadow-xl p-8 md:p-12 my-12">
+            <h3 class="text-3xl font-bold text-center mb-6">Contact Us</h3>
+            <p class="text-center mb-8 max-w-lg mx-auto">
+                Get in touch with our team to learn more about our products or to discuss your project needs.
+            </p>
+            <form class="max-w-xl mx-auto space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium mb-1">Full Name</label>
+                    <input type="text" id="name" name="name" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-blue-300 text-white placeholder-gray-300">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium mb-1">Email Address</label>
+                    <input type="email" id="email" name="email" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-blue-300 text-white placeholder-gray-300">
+                </div>
+                <div>
+                    <label for="subject" class="block text-sm font-medium mb-1">Subject</label>
+                    <input type="text" id="subject" name="subject" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-blue-300 text-white placeholder-gray-300">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium mb-1">Message</label>
+                    <textarea id="message" name="message" rows="4" class="w-full px-4 py-2 rounded-lg bg-white bg-opacity-10 focus:outline-none focus:ring-2 focus:ring-blue-300 text-white placeholder-gray-300"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-600 text-white font-bold py-3 px-8 rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300 transform hover:scale-105">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-gray-300 py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 Thar Lu Steel Co., Ltd. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
